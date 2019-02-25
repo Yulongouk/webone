@@ -12,25 +12,39 @@ body{
   z-index: -1;
 }
 nav {
-
-  margin: 30px;
-  margin-right: 60px;
+  margin-top:20px;    
+  float: left;     
+ //border: 1px solid grey;    
+}
+nav:hover{
+  background-color: azure;
+}
+.nag{
+    position: relative;
+    width: 1500px;
+    float: right;
 }
 nav > a {
+  text-decoration: none;
   color: yellow;
+  margin: 160px;    
+}
+input{
+    margin-left: 200px;
+    border-radius: 18px;
 }
 .logo {
   font-size: 30px;
   color: red;
   float: left;
-  margin-top: 0;
+  margin-top: 10px;
   margin-left: 60px;
 }
 main{
   position: absolute;
   margin: 0;
   display: block;
-  background-color: ;
+  background-color: none;
   text-align: center;
   width: 100%;
 }
@@ -47,20 +61,20 @@ main > p{
  text-align: center;
 }
 .bth{
-  width: 30px;
-  height: 30px;
-  background-color: rgb(141,252,197);
+  width: 50px;
+  height: 50px;
+  background-color: rgb(37, 158, 47);
   display: inline-block;
   border-radius: 30%;
-  box-shadow: 5px 5px 10px rgb(41,255,255);
+  box-shadow: 5px 5px 10px rgb(187, 179, 179, 0.712);
 }
 .bth i{
   position: relative;
-  top: 20%;
+  top: 32%;
   font-size: 20px;
-  color: rgb(255,190,41);
-  transition: 0.3s linear;
+  color: rgba(187, 179, 179, 0.712);
+  transition: 0.5s ease;
 }
 .bth i:hover{
-  transform: scale(2) rotate(360000000000000deg);
+  transform: scale(1.5) rotate(360deg);
 }
