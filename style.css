@@ -16,9 +16,6 @@ nav {
   float: left;     
  //border: 1px solid grey;    
 }
-nav:hover{
-  background-color: azure;
-}
 .nag{
     position: relative;
     width: 1500px;
@@ -26,8 +23,14 @@ nav:hover{
 }
 nav > a {
   text-decoration: none;
-  color: yellow;
-  margin: 160px;    
+  color: grey;
+  margin: 120px; 
+}
+nav a: hover
+{  background-color:green;
+  padding: 10px 20px 10px 20px;
+    
+  border-radius: 30%;    
 }
 input{
     margin-left: 200px;
