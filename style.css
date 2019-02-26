@@ -44,15 +44,17 @@ input{
   margin-left: 60px;
 }
 main{
-  position: absolute;
-  margin: 0;
+  position: absolute;    
   display: block;
   background-color: none;
+  opacity: 0.4;    
   text-align: center;
   width: 100%;
 }
 main > p{
-  color: green;
+  color: black;
+  background: lightgray;
+  opacity: 1;    
   font-size: 40px;
   margin-top: 14%;
 
